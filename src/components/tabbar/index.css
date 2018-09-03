@@ -1,0 +1,24 @@
+.iconfont {
+    font-size: 28px !important;
+}
+
+.tabbar {
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border: 1px solid rgba(204, 204, 204, 0.43);
+    padding: 5px 0;
+}
+
+.tabbar-content {
+    display: flex;
+}
+
+.tarbar-item {
+    flex: 1;
+}
+
+.active {
+    color: red;
+}
