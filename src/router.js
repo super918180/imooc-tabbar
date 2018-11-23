@@ -8,6 +8,7 @@ import User from './pages/user'
 export default () => (
   <BrowserRouter>
     <Switch>
+      <Route path='/' exact component={Home} />
       <Route path='/home' component={Home} />
       <Route path='/category' component={Category} />
       <Route path='/car' component={Car} />
